@@ -1,0 +1,61 @@
+<section>
+    VmInclude:__PARTS__/grid/grid.html
+</section>
+<script>
+    function F__ID(){
+        //-------------------------------------
+
+        VmInclude:__PARTS__/grid/grid.js
+        VmInclude:__PARTS__/style/ease-in-out.js
+		VmInclude:__CURRENT_PATH__/task.js
+        //-------------------------------------
+        _task_fields="\
+            Initials|Initials,\
+            Location|LocationID,\
+            Randomisation Number|RandomisationNumber,\
+            Arm|ArmID,\
+            Date|DateID,\
+            Time|TimeID,\
+            Sex|SexID,\
+            Sequence|SeqID,\
+            Performance Date|PerformanceDate,\
+            DOB|DOBID,\
+            PA_Score|PA_Score,\
+            PA_1|PA_1,\
+            PA_1a|PA_1a,\
+            PA_1b|PA_1b,\
+            PA_2|PA_2,\
+            PA_2a|PA_2a,\
+            PA_3|PA_3,\
+            PA_3a|PA_3a,\
+            PA_3b|PA_3b,\
+            PA_4|PA_4,\
+            PA_4a|PA_4a,\
+            PA_4b|PA_4b,\
+            PA_5|PA_5,\
+            PA_5a|PA_5a,\
+            PA_5b|PA_5b,\
+            PA_6|PA_6,\
+            PA_6a|PA_6a,\
+            PA_6b|PA_6b,\
+            PA_7|PA_7,\
+            PA_8|PA_8,\
+            PA_9a|PA_9a,\
+            PA_9b|PA_9b,\
+            PA_9c|PA_9c,\
+            PA_9d|PA_9d,\
+            PA_10|PA_10,\
+            PA_10a|PA_10a,\
+            PA_10b|PA_10b\
+		";
+		_fields="_Form,Volunteer_ID|VolunteerID_A,"+_task_fields;
+        _fields+=",Submit Date|DateTime,Submitted by|Author";
+        //-------------------------------------
+        $('#D__ID').on('load',function(){  _set_req(); _request_data();  })
+        $('#D__ID').on('back',function(){  _set_req(); _request_data();  })
+        //-------------------------------------
+    }
+</script>
+<style>
+    VmInclude:__PARTS__/grid/grid.css
+</style>

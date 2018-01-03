@@ -1,0 +1,168 @@
+{
+	"name":"osat06",
+	"url":"/modules/dynamic/panel.html",
+	"parameters":{
+		"sql_participant" : "@('Volunteer_ID')+' '+@('Initials')+' '+@('DOB')"
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":[{"name":"Participants","modules":[
+					{"module_id":"participant","name":"Participants","table_id":"20004263","url":"/modules/dynamic/osat06/participant.html","counting":"1"}
+					]}]
+			}
+			,{
+				"sections":[
+					{"name":"1. Screening","modules":[
+					{"module_id":"m_001_001","name":"Screening report","table_id":"20004325","url":"/modules/dynamic/osat06/task/document.html","counting":"1"}
+				]},
+					{"name":"2. Week 0","modules":[
+						{"module_id":"m_002_001","name":"Abdominal Ct Scan","table_id":"20005400","url":"/modules/dynamic/osat06/task/ct_scan.html","counting":"1"}
+						,{"module_id":"m_002_002","name":"Anthropometric Data","table_id":"20005403","url":"/modules/dynamic/osat06/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_002_003","name":"Basal Metabolic Rate","table_id":"20005409","url":"/modules/dynamic/osat06/task/metabolic_rate.html","counting":"1"}
+						,{"module_id":"m_002_004","name":"BIA (Bio-Impedance Analysis)","table_id":"20005402","url":"/modules/dynamic/osat06/task/bia.html","counting":"1"}
+						,{"module_id":"m_002_005","name":"CT Fat","table_id":"20005414","url":"/modules/dynamic/osat06/task/ct_fat.html","counting":"1"}
+						,{"module_id":"m_002_007","name":"Dexa","table_id":"20005413","url":"/modules/dynamic/osat06/task/dexa.html","counting":"1"}
+						,{"module_id":"m_002_008","name":"Diet","table_id":"20004313","url":"/modules/dynamic/osat06/task/diet.html","counting":"1"}
+						,{"module_id":"m_002_009","name":"Drug Randomisation","table_id":"20004315","url":"/modules/dynamic/osat06/task/randomisation.html","counting":"1"}
+						,{"module_id":"m_002_010","name":"ESS","table_id":"20004317","url":"/modules/dynamic/osat06/task/ess.html","counting":"1"}
+						,{"module_id":"m_002_011","name":"Extended Anthropometric Data","table_id":"20004309","url":"/modules/dynamic/osat06/task/anthropometry_extended.html","counting":"1"}
+						,{"module_id":"m_002_012","name":"FOSQ","table_id":"20005405","url":"/modules/dynamic/osat06/task/fosq.html","counting":"1"}
+						,{"module_id":"m_002_013","name":"Glucose Results","table_id":"20004327","url":"/modules/dynamic/osat06/task/glucose_result.html","counting":"1"}
+						,{"module_id":"m_002_014","name":"Hand Dynometry","table_id":"20005401","url":"/modules/dynamic/osat06/task/hand_dynometer.html","counting":"1"}
+						,{"module_id":"m_002_015","name":"IPSS","table_id":"20004323","url":"/modules/dynamic/osat06/task/ipss.html","counting":"1"}
+						,{"module_id":"m_002_016","name":"KSS","table_id":"20005410","url":"/modules/dynamic/osat06/task/kss.html","counting":"1"}
+						,{"module_id":"m_002_017","name":"Lab Safety Test","table_id":"20004304","url":"/modules/dynamic/osat06/task/lab_safety.html","counting":"1"}
+						,{"module_id":"m_002_018","name":"Mood and Energy","table_id":"20005406","url":"/modules/dynamic/osat06/task/mood_energy.html","counting":"1"}
+						,{"module_id":"m_002_019","name":"Physical Activity","table_id":"20005407","url":"/modules/dynamic/osat06/task/physical_activity.html","counting":"1"}
+						,{"module_id":"m_002_020","name":"PSG Alice","table_id":"20004326","url":"/modules/dynamic/osat06/task/psg_alice.html","counting":"1"}
+						,{"module_id":"m_002_021","name":"PSG Compumedics","table_id":"20004307","url":"/modules/dynamic/osat06/task/psg_compumedics.html","counting":"1"}
+						,{"module_id":"m_002_022","name":"PSG Sandman - Part 1","table_id":"20004330","url":"/modules/dynamic/osat06/task/psg_sandman_1.html","counting":"1"}
+						,{"module_id":"m_002_023","name":"PSG Sandman - Part 2","table_id":"20004331","url":"/modules/dynamic/osat06/task/psg_sandman_2.html","counting":"1"}
+						,{"module_id":"m_002_024","name":"PVT","table_id":"20004332","url":"/modules/dynamic/osat06/task/pvt.html","counting":"1"}
+						,{"module_id":"m_002_025","name":"PWA","table_id":"20005404","url":"/modules/dynamic/osat06/task/pwa.html","counting":"1"}
+						,{"module_id":"m_002_026","name":"Sexual activity","table_id":"20005408","url":"/modules/dynamic/osat06/task/sexual_activity.html","counting":"1"}
+						,{"module_id":"m_002_027","name":"SF36","table_id":"20004319","url":"/modules/dynamic/osat06/task/sf36.html","counting":"1"}
+						,{"module_id":"m_002_028","name":"SSS","table_id":"20004321","url":"/modules/dynamic/osat06/task/sss.html","counting":"1"}
+						,{"module_id":"m_002_029","name":"Stroop (Colour)","table_id":"20005411","url":"/modules/dynamic/osat06/task/stroop.html","counting":"1"}
+						,{"module_id":"m_002_030","name":"Stroop (Text)","table_id":"20005412","url":"/modules/dynamic/osat06/task/stroop.html","counting":"1"}
+						,{"module_id":"m_002_031","name":"Tower of London","table_id":"20004306","url":"/modules/dynamic/osat06/task/tol.html","counting":"1"}
+						]}
+				]}
+				,{
+				"sections":[
+					{"name":"3. Week 6","modules":[
+						{"module_id":"m_003_002","name":"Anthropometric Data","table_id":"20004308","url":"/modules/dynamic/osat06/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_003_004","name":"BIA (Bio-Impedance Analysis)","table_id":"20004305","url":"/modules/dynamic/osat06/task/bia.html","counting":"1"}
+						,{"module_id":"m_003_008","name":"Diet","table_id":"20005430","url":"/modules/dynamic/osat06/task/diet.html","counting":"1"}
+						,{"module_id":"m_003_010","name":"ESS","table_id":"20005421","url":"/modules/dynamic/osat06/task/ess.html","counting":"1"}
+						,{"module_id":"m_003_011","name":"Extended Anthropometric Data","table_id":"20005420","url":"/modules/dynamic/osat06/task/anthropometry_extended.html","counting":"1"}
+						,{"module_id":"m_003_012","name":"FOSQ","table_id":"20004318","url":"/modules/dynamic/osat06/task/fosq.html","counting":"1"}
+						,{"module_id":"m_003_013","name":"Glucose Results","table_id":"20005429","url":"/modules/dynamic/osat06/task/glucose_result.html","counting":"1"}
+						,{"module_id":"m_003_014","name":"Hand Dynometry","table_id":"20005419","url":"/modules/dynamic/osat06/task/hand_dynometer.html","counting":"1"}
+						,{"module_id":"m_003_015","name":"IPSS","table_id":"20005422","url":"/modules/dynamic/osat06/task/ipss.html","counting":"1"}
+						,{"module_id":"m_003_016","name":"KSS","table_id":"20004320","url":"/modules/dynamic/osat06/task/kss.html","counting":"1"}
+						,{"module_id":"m_003_017","name":"Lab Safety Test","table_id":"20005428","url":"/modules/dynamic/osat06/task/lab_safety.html","counting":"1"}
+						,{"module_id":"m_003_018","name":"Mood and Energy","table_id":"20004324","url":"/modules/dynamic/osat06/task/mood_energy.html","counting":"1"}
+						,{"module_id":"m_003_019","name":"Physical Activity","table_id":"20004312","url":"/modules/dynamic/osat06/task/physical_activity.html","counting":"1"}
+						,{"module_id":"m_003_020","name":"PSG Alice","table_id":"20005416","url":"/modules/dynamic/osat06/task/psg_alice.html","counting":"1"}
+						,{"module_id":"m_003_021","name":"PSG Compumedics","table_id":"20005415","url":"/modules/dynamic/osat06/task/psg_compumedics.html","counting":"1"}
+						,{"module_id":"m_003_022","name":"PSG Sandman - Part 1","table_id":"20005417","url":"/modules/dynamic/osat06/task/psg_sandman_1.html","counting":"1"}
+						,{"module_id":"m_003_023","name":"PSG Sandman - Part 2","table_id":"20005418","url":"/modules/dynamic/osat06/task/psg_sandman_2.html","counting":"1"}
+						,{"module_id":"m_003_024","name":"PVT","table_id":"20005424","url":"/modules/dynamic/osat06/task/pvt.html","counting":"1"}
+						,{"module_id":"m_003_025","name":"PWA","table_id":"20004333","url":"/modules/dynamic/osat06/task/pwa.html","counting":"1"}
+						,{"module_id":"m_003_026","name":"Sexual activity","table_id":"20004322","url":"/modules/dynamic/osat06/task/sexual_activity.html","counting":"1"}
+						,{"module_id":"m_003_027","name":"SF36","table_id":"20005423","url":"/modules/dynamic/osat06/task/sf36.html","counting":"1"}
+						,{"module_id":"m_003_028","name":"SSS","table_id":"20005427","url":"/modules/dynamic/osat06/task/sss.html","counting":"1"}
+						,{"module_id":"m_003_029","name":"Stroop (Colour)","table_id":"20004316","url":"/modules/dynamic/osat06/task/stroop.html","counting":"1"}
+						,{"module_id":"m_003_030","name":"Stroop (Text)","table_id":"20005426","url":"/modules/dynamic/osat06/task/stroop.html","counting":"1"}
+						,{"module_id":"m_003_031","name":"Tower of London","table_id":"20005425","url":"/modules/dynamic/osat06/task/tol.html","counting":"1"}
+						]}
+				]}
+				,{
+				"sections":[
+					{"name":"4. Week 12","modules":[
+						{"module_id":"m_004_002","name":"Anthropometric Data","table_id":"20005433","url":"/modules/dynamic/osat06/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_004_004","name":"BIA (Bio-Impedance Analysis)","table_id":"20005432","url":"/modules/dynamic/osat06/task/bia.html","counting":"1"}
+						,{"module_id":"m_004_008","name":"Diet","table_id":"20005445","url":"/modules/dynamic/osat06/task/diet.html","counting":"1"}
+						,{"module_id":"m_004_010","name":"ESS","table_id":"20005436","url":"/modules/dynamic/osat06/task/ess.html","counting":"1"}
+						,{"module_id":"m_004_011","name":"Extended Anthropometric Data","table_id":"20005434","url":"/modules/dynamic/osat06/task/anthropometry_extended.html","counting":"1"}
+						,{"module_id":"m_004_012","name":"FOSQ","table_id":"20005437","url":"/modules/dynamic/osat06/task/fosq.html","counting":"1"}
+						,{"module_id":"m_004_013","name":"Glucose Results","table_id":"20005444","url":"/modules/dynamic/osat06/task/glucose_result.html","counting":"1"}
+						,{"module_id":"m_004_014","name":"Hand Dynometry","table_id":"20005431","url":"/modules/dynamic/osat06/task/hand_dynometer.html","counting":"1"}
+						,{"module_id":"m_004_015","name":"IPSS","table_id":"20005438","url":"/modules/dynamic/osat06/task/ipss.html","counting":"1"}
+						,{"module_id":"m_004_017","name":"Lab Safety Test","table_id":"20005443","url":"/modules/dynamic/osat06/task/lab_safety.html","counting":"1"}
+						,{"module_id":"m_004_018","name":"Mood and Energy","table_id":"20005439","url":"/modules/dynamic/osat06/task/mood_energy.html","counting":"1"}
+						,{"module_id":"m_004_019","name":"Physical Activity","table_id":"20005440","url":"/modules/dynamic/osat06/task/physical_activity.html","counting":"1"}
+						,{"module_id":"m_004_025","name":"PWA","table_id":"20005435","url":"/modules/dynamic/osat06/task/pwa.html","counting":"1"}
+						,{"module_id":"m_004_026","name":"Sexual activity","table_id":"20005441","url":"/modules/dynamic/osat06/task/sexual_activity.html","counting":"1"}
+						,{"module_id":"m_004_027","name":"SF36","table_id":"20005442","url":"/modules/dynamic/osat06/task/sf36.html","counting":"1"}
+						]}
+				]}
+				,{
+				"sections":[
+					{"name":"5. Week 18","modules":[
+						{"module_id":"m_005_001","name":"Abdominal Ct Scan","table_id":"20004334","url":"/modules/dynamic/osat06/task/ct_scan.html","counting":"1"}
+						,{"module_id":"m_005_101","name":"Active Placebo","table_id":"20004329","url":"/modules/dynamic/osat06/task/active_placebo.html","counting":"1"}
+						,{"module_id":"m_005_002","name":"Anthropometric Data","table_id":"20005451","url":"/modules/dynamic/osat06/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_005_003","name":"Basal Metabolic Rate","table_id":"20004310","url":"/modules/dynamic/osat06/task/metabolic_rate.html","counting":"1"}
+						,{"module_id":"m_005_004","name":"BIA (Bio-Impedance Analysis)","table_id":"20005450","url":"/modules/dynamic/osat06/task/bia.html","counting":"1"}
+						,{"module_id":"m_005_005","name":"CT Fat","table_id":"20004314","url":"/modules/dynamic/osat06/task/ct_fat.html","counting":"1"}
+						,{"module_id":"m_005_007","name":"Dexa","table_id":"20004303","url":"/modules/dynamic/osat06/task/dexa.html","counting":"1"}
+						,{"module_id":"m_005_008","name":"Diet","table_id":"20005469","url":"/modules/dynamic/osat06/task/diet.html","counting":"1"}
+						,{"module_id":"m_005_010","name":"ESS","table_id":"20005454","url":"/modules/dynamic/osat06/task/ess.html","counting":"1"}
+						,{"module_id":"m_005_011","name":"Extended Anthropometric Data","table_id":"20005452","url":"/modules/dynamic/osat06/task/anthropometry_extended.html","counting":"1"}
+						,{"module_id":"m_005_012","name":"FOSQ","table_id":"20005455","url":"/modules/dynamic/osat06/task/fosq.html","counting":"1"}
+						,{"module_id":"m_005_013","name":"Glucose Results","table_id":"20005468","url":"/modules/dynamic/osat06/task/glucose_result.html","counting":"1"}
+						,{"module_id":"m_005_014","name":"Hand Dynometry","table_id":"20004311","url":"/modules/dynamic/osat06/task/hand_dynometer.html","counting":"1"}
+						,{"module_id":"m_005_015","name":"IPSS","table_id":"20005456","url":"/modules/dynamic/osat06/task/ipss.html","counting":"1"}
+						,{"module_id":"m_005_016","name":"KSS","table_id":"20005462","url":"/modules/dynamic/osat06/task/kss.html","counting":"1"}
+						,{"module_id":"m_005_017","name":"Lab Safety Test","table_id":"20005467","url":"/modules/dynamic/osat06/task/lab_safety.html","counting":"1"}
+						,{"module_id":"m_005_018","name":"Mood and Energy","table_id":"20005457","url":"/modules/dynamic/osat06/task/mood_energy.html","counting":"1"}
+						,{"module_id":"m_005_019","name":"Physical Activity","table_id":"20005458","url":"/modules/dynamic/osat06/task/physical_activity.html","counting":"1"}
+						,{"module_id":"m_005_020","name":"PSG Alice","table_id":"20005447","url":"/modules/dynamic/osat06/task/psg_alice.html","counting":"1"}
+						,{"module_id":"m_005_021","name":"PSG Compumedics","table_id":"20005446","url":"/modules/dynamic/osat06/task/psg_compumedics.html","counting":"1"}
+						,{"module_id":"m_005_022","name":"PSG Sandman - Part 1","table_id":"20005448","url":"/modules/dynamic/osat06/task/psg_sandman_1.html","counting":"1"}
+						,{"module_id":"m_005_023","name":"PSG Sandman - Part 2","table_id":"20005449","url":"/modules/dynamic/osat06/task/psg_sandman_2.html","counting":"1"}
+						,{"module_id":"m_005_024","name":"PVT","table_id":"20005461","url":"/modules/dynamic/osat06/task/pvt.html","counting":"1"}
+						,{"module_id":"m_005_025","name":"PWA","table_id":"20005453","url":"/modules/dynamic/osat06/task/pwa.html","counting":"1"}
+						,{"module_id":"m_005_026","name":"Sexual activity","table_id":"20005459","url":"/modules/dynamic/osat06/task/sexual_activity.html","counting":"1"}
+						,{"module_id":"m_005_027","name":"SF36","table_id":"20005460","url":"/modules/dynamic/osat06/task/sf36.html","counting":"1"}
+						,{"module_id":"m_005_028","name":"SSS","table_id":"20005466","url":"/modules/dynamic/osat06/task/sss.html","counting":"1"}
+						,{"module_id":"m_005_029","name":"Stroop (Colour)","table_id":"20005464","url":"/modules/dynamic/osat06/task/stroop.html","counting":"1"}
+						,{"module_id":"m_005_030","name":"Stroop (Text)","table_id":"20005465","url":"/modules/dynamic/osat06/task/stroop.html","counting":"1"}
+						,{"module_id":"m_005_031","name":"Tower of London","table_id":"20005463","url":"/modules/dynamic/osat06/task/tol.html","counting":"1"}
+					]}
+				]}
+				,{
+				"sections":[
+					{"name":"6. Week 26","modules":[
+						{"module_id":"m_006_001","name":"Active Placebo","table_id":"20005470","url":"/modules/dynamic/osat06/task/active_placebo.html","counting":"1"}
+						,{"module_id":"m_006_002","name":"Anthropometric Data","table_id":"20005473","url":"/modules/dynamic/osat06/task/anthropometric_data.html","counting":"1"}
+						,{"module_id":"m_006_004","name":"BIA (Bio-Impedance Analysis)","table_id":"20005472","url":"/modules/dynamic/osat06/task/bia.html","counting":"1"}
+						,{"module_id":"m_006_010","name":"ESS","table_id":"20005475","url":"/modules/dynamic/osat06/task/ess.html","counting":"1"}
+						,{"module_id":"m_006_011","name":"Extended Anthropometric Data","table_id":"20005474","url":"/modules/dynamic/osat06/task/anthropometry_extended.html","counting":"1"}
+						,{"module_id":"m_006_012","name":"FOSQ","table_id":"20005476","url":"/modules/dynamic/osat06/task/fosq.html","counting":"1"}
+						,{"module_id":"m_006_013","name":"Glucose Results","table_id":"20005483","url":"/modules/dynamic/osat06/task/glucose_result.html","counting":"1"}
+						,{"module_id":"m_006_014","name":"Hand Dynometry","table_id":"20005471","url":"/modules/dynamic/osat06/task/hand_dynometer.html","counting":"1"}
+						,{"module_id":"m_006_015","name":"IPSS","table_id":"20005477","url":"/modules/dynamic/osat06/task/ipss.html","counting":"1"}
+						,{"module_id":"m_006_017","name":"Lab Safety Test","table_id":"20005482","url":"/modules/dynamic/osat06/task/lab_safety.html","counting":"1"}
+						,{"module_id":"m_006_018","name":"Mood and Energy","table_id":"20005478","url":"/modules/dynamic/osat06/task/mood_energy.html","counting":"1"}
+						,{"module_id":"m_006_019","name":"Physical Activity","table_id":"20005479","url":"/modules/dynamic/osat06/task/physical_activity.html","counting":"1"}
+						,{"module_id":"m_006_026","name":"Sexual activity","table_id":"20005480","url":"/modules/dynamic/osat06/task/sexual_activity.html","counting":"1"}
+						,{"module_id":"m_006_027","name":"SF36","table_id":"20005481","url":"/modules/dynamic/osat06/task/sf36.html","counting":"1"}
+						,{"module_id":"m_006_028","name":"Treatment","table_id":"20004328","url":"/modules/dynamic/osat06/task/treatment.html","counting":"1"}
+					]},
+					{"name":"Special Forms (Un-Scheduled Encounter)","modules":[
+						{"module_id":"m_009_001","name":"Concom Medications","table_id":"20004395","url":"/modules/dynamic/osat06/task/concom_medications.html","counting":"1"}
+						,{"module_id":"m_009_002","name":"Adverse Event","table_id":"20004396","url":"/modules/dynamic/osat06/task/adverse_event.html","counting":"1"}
+						,{"module_id":"m_009_003","name":"File Notes","table_id":"20004398","url":"/modules/dynamic/osat06/task/File_Notes.html","counting":"1"}
+						,{"module_id":"m_009_004","name":"Serious Adverse Event","table_id":"20004397","url":"/modules/dynamic/osat06/task/Serious_Adverse_Event.html","counting":"1"}
+						,{"module_id":"m_009_005","name":"Serious Adverse Event Follow Up","table_id":"20005484","url":"/modules/dynamic/osat06/task/Serious_Adverse_Event_Follow_Up.html","counting":"1"}
+						]}
+					]}
+				]
+			}
+		}
